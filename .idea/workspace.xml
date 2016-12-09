@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1815dcba-e891-41f0-92d4-c10ef16fa7d7" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DrupalConfiguration" enabled="true" version="7">
+    <drupalPath>C:\Users\Павел\Desktop\c-surfing\dev</drupalPath>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="yandex_map" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="yandex_map.info" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yandex_map.info">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yandex_map.module" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yandex_map.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+              <folding>
+                <element signature="e#6#117#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yandex_map.page.inc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yandex_map.page.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yandex_map.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yandex_map.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ymap</find>
+      <find>yandex_map_users</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>yandex_map</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/yandex_map.info" />
+        <option value="$PROJECT_DIR$/yandex_map.js" />
+        <option value="$PROJECT_DIR$/yandex_map.page.inc" />
+        <option value="$PROJECT_DIR$/yandex_map.module" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../../includes" />
+      <path value="$PROJECT_DIR$/../../../../modules" />
+      <path value="$PROJECT_DIR$/../ds" />
+      <path value="$PROJECT_DIR$/../cck" />
+      <path value="$PROJECT_DIR$/../cmf" />
+      <path value="$PROJECT_DIR$/../date" />
+      <path value="$PROJECT_DIR$/../diff" />
+      <path value="$PROJECT_DIR$/../flag" />
+      <path value="$PROJECT_DIR$/../gmap" />
+      <path value="$PROJECT_DIR$/../i18n" />
+      <path value="$PROJECT_DIR$/../imce" />
+      <path value="$PROJECT_DIR$/../purl" />
+      <path value="$PROJECT_DIR$/../test" />
+      <path value="$PROJECT_DIR$/../uuid" />
+      <path value="$PROJECT_DIR$/../vefl" />
+      <path value="$PROJECT_DIR$/../chart" />
+      <path value="$PROJECT_DIR$/../devel" />
+      <path value="$PROJECT_DIR$/../feeds" />
+      <path value="$PROJECT_DIR$/../media" />
+      <path value="$PROJECT_DIR$/../print" />
+      <path value="$PROJECT_DIR$/../rules" />
+      <path value="$PROJECT_DIR$/../title" />
+      <path value="$PROJECT_DIR$/../token" />
+      <path value="$PROJECT_DIR$/../views" />
+      <path value="$PROJECT_DIR$/../advagg" />
+      <path value="$PROJECT_DIR$/../ctools" />
+      <path value="$PROJECT_DIR$/../custom" />
+      <path value="$PROJECT_DIR$/../entity" />
+      <path value="$PROJECT_DIR$/../geophp" />
+      <path value="$PROJECT_DIR$/../httprl" />
+      <path value="$PROJECT_DIR$/../iframe" />
+      <path value="$PROJECT_DIR$/../captcha" />
+      <path value="$PROJECT_DIR$/../extlink" />
+      <path value="$PROJECT_DIR$/../favicon" />
+      <path value="$PROJECT_DIR$/../metatag" />
+      <path value="$PROJECT_DIR$/../varnish" />
+      <path value="$PROJECT_DIR$/../wysiwyg" />
+      <path value="$PROJECT_DIR$/../yashare" />
+      <path value="$PROJECT_DIR$/../ckeditor" />
+      <path value="$PROJECT_DIR$/../colorbox" />
+      <path value="$PROJECT_DIR$/../fivestar" />
+      <path value="$PROJECT_DIR$/../geocoder" />
+      <path value="$PROJECT_DIR$/../geofield" />
+      <path value="$PROJECT_DIR$/../honeypot" />
+      <path value="$PROJECT_DIR$/../location" />
+      <path value="$PROJECT_DIR$/../memcache" />
+      <path value="$PROJECT_DIR$/../pathauto" />
+      <path value="$PROJECT_DIR$/../realname" />
+      <path value="$PROJECT_DIR$/../redirect" />
+      <path value="$PROJECT_DIR$/../variable" />
+      <path value="$PROJECT_DIR$/../authcache" />
+      <path value="$PROJECT_DIR$/../i18nviews" />
+      <path value="$PROJECT_DIR$/../libraries" />
+      <path value="$PROJECT_DIR$/../lightbox2" />
+      <path value="$PROJECT_DIR$/../maxlength" />
+      <path value="$PROJECT_DIR$/../nodequeue" />
+      <path value="$PROJECT_DIR$/../pathrules" />
+      <path value="$PROJECT_DIR$/../recaptcha" />
+      <path value="$PROJECT_DIR$/../robokassa" />
+      <path value="$PROJECT_DIR$/../rustemmer" />
+      <path value="$PROJECT_DIR$/../scheduler" />
+      <path value="$PROJECT_DIR$/../superfish" />
+      <path value="$PROJECT_DIR$/../votingapi" />
+      <path value="$PROJECT_DIR$/../admin_menu" />
+      <path value="$PROJECT_DIR$/../drupalchat" />
+      <path value="$PROJECT_DIR$/../empty_page" />
+      <path value="$PROJECT_DIR$/../geo_helper" />
+      <path value="$PROJECT_DIR$/../hybridauth" />
+      <path value="$PROJECT_DIR$/../interkassa" />
+      <path value="$PROJECT_DIR$/../masquerade" />
+      <path value="$PROJECT_DIR$/../menu_token" />
+      <path value="$PROJECT_DIR$/../nice_menus" />
+      <path value="$PROJECT_DIR$/../page_title" />
+      <path value="$PROJECT_DIR$/../privatemsg" />
+      <path value="$PROJECT_DIR$/../references" />
+      <path value="$PROJECT_DIR$/../search_api" />
+      <path value="$PROJECT_DIR$/../simplemeta" />
+      <path value="$PROJECT_DIR$/../starrating" />
+      <path value="$PROJECT_DIR$/../xmlsitemap" />
+      <path value="$PROJECT_DIR$/../ymap_users" />
+      <path value="$PROJECT_DIR$/../admin_views" />
+      <path value="$PROJECT_DIR$/../back_to_top" />
+      <path value="$PROJECT_DIR$/../field_group" />
+      <path value="$PROJECT_DIR$/../file_entity" />
+      <path value="$PROJECT_DIR$/../imageeditor" />
+      <path value="$PROJECT_DIR$/../imagemagick" />
+      <path value="$PROJECT_DIR$/../l10n_client" />
+      <path value="$PROJECT_DIR$/../l10n_update" />
+      <path value="$PROJECT_DIR$/../lang_detect" />
+      <path value="$PROJECT_DIR$/../linkchecker" />
+      <path value="$PROJECT_DIR$/../node_expire" />
+      <path value="$PROJECT_DIR$/../remember_me" />
+      <path value="$PROJECT_DIR$/../role_expire" />
+      <path value="$PROJECT_DIR$/../seo_checker" />
+      <path value="$PROJECT_DIR$/../simple_gmap" />
+      <path value="$PROJECT_DIR$/../site_verify" />
+      <path value="$PROJECT_DIR$/../addressfield" />
+      <path value="$PROJECT_DIR$/../checklistapi" />
+      <path value="$PROJECT_DIR$/../hostel_check" />
+      <path value="$PROJECT_DIR$/../imce_wysiwyg" />
+      <path value="$PROJECT_DIR$/../mobile_tools" />
+      <path value="$PROJECT_DIR$/../reg_with_pic" />
+      <path value="$PROJECT_DIR$/../smsframework" />
+      <path value="$PROJECT_DIR$/../taxonomy_csv" />
+      <path value="$PROJECT_DIR$/../token_filter" />
+      <path value="$PROJECT_DIR$/../video_filter" />
+      <path value="$PROJECT_DIR$/../yandex_money" />
+      <path value="$PROJECT_DIR$/../couch_request" />
+      <path value="$PROJECT_DIR$/../ed_classified" />
+      <path value="$PROJECT_DIR$/../geofield_ymap" />
+      <path value="$PROJECT_DIR$/../job_scheduler" />
+      <path value="$PROJECT_DIR$/../jquery_update" />
+      <path value="$PROJECT_DIR$/../module_filter" />
+      <path value="$PROJECT_DIR$/../search_api_db" />
+      <path value="$PROJECT_DIR$/../search_helper" />
+      <path value="$PROJECT_DIR$/../seo_checklist" />
+      <path value="$PROJECT_DIR$/../views_megarow" />
+      <path value="$PROJECT_DIR$/../advanced_forum" />
+      <path value="$PROJECT_DIR$/../ckeditor_image" />
+      <path value="$PROJECT_DIR$/../comment_notify" />
+      <path value="$PROJECT_DIR$/../content_access" />
+      <path value="$PROJECT_DIR$/../globalredirect" />
+      <path value="$PROJECT_DIR$/../google_qr_code" />
+      <path value="$PROJECT_DIR$/../simpleantispam" />
+      <path value="$PROJECT_DIR$/../translate_this" />
+      <path value="$PROJECT_DIR$/../yandex_payment" />
+      <path value="$PROJECT_DIR$/../avatar_uploader" />
+      <path value="$PROJECT_DIR$/../entityreference" />
+      <path value="$PROJECT_DIR$/../imagefield_crop" />
+      <path value="$PROJECT_DIR$/../search_api_solr" />
+      <path value="$PROJECT_DIR$/../transliteration" />
+      <path value="$PROJECT_DIR$/../views_accordion" />
+      <path value="$PROJECT_DIR$/../views_bootstrap" />
+      <path value="$PROJECT_DIR$/../views_slideshow" />
+      <path value="$PROJECT_DIR$/../empty_front_page" />
+      <path value="$PROJECT_DIR$/../exif_orientation" />
+      <path value="$PROJECT_DIR$/../galleryformatter" />
+      <path value="$PROJECT_DIR$/../path_breadcrumbs" />
+      <path value="$PROJECT_DIR$/../registry_rebuild" />
+      <path value="$PROJECT_DIR$/../site_map-7.x-1.0" />
+      <path value="$PROJECT_DIR$/../translate_button" />
+      <path value="$PROJECT_DIR$/../views_hst_filter" />
+      <path value="$PROJECT_DIR$/../field_permissions" />
+      <path value="$PROJECT_DIR$/../filefield_sources" />
+      <path value="$PROJECT_DIR$/../imagefield_tokens" />
+      <path value="$PROJECT_DIR$/../language_switcher" />
+      <path value="$PROJECT_DIR$/../views_data_export" />
+      <path value="$PROJECT_DIR$/../custom_breadcrumbs" />
+      <path value="$PROJECT_DIR$/../entity_translation" />
+      <path value="$PROJECT_DIR$/../imagecache_actions" />
+      <path value="$PROJECT_DIR$/../robokassa_settings" />
+      <path value="$PROJECT_DIR$/../user_relationships" />
+      <path value="$PROJECT_DIR$/../video_filter_field" />
+      <path value="$PROJECT_DIR$/../wysiwyg_mediaembed" />
+      <path value="$PROJECT_DIR$/../addressfield_tokens" />
+      <path value="$PROJECT_DIR$/../hierarchical_select" />
+      <path value="$PROJECT_DIR$/../search_api_location" />
+      <path value="$PROJECT_DIR$/../taxonomy_breadcrumb" />
+      <path value="$PROJECT_DIR$/../ds_bootstrap_layouts" />
+      <path value="$PROJECT_DIR$/../image_exif_autorotate" />
+      <path value="$PROJECT_DIR$/../override_node_options" />
+      <path value="$PROJECT_DIR$/../user_profile_comments" />
+      <path value="$PROJECT_DIR$/../views_bulk_operations" />
+      <path value="$PROJECT_DIR$/../addressfield_staticmap" />
+      <path value="$PROJECT_DIR$/../better_exposed_filters" />
+      <path value="$PROJECT_DIR$/../views_dependent_filters" />
+      <path value="$PROJECT_DIR$/../advanced_forum_bootstrap" />
+      <path value="$PROJECT_DIR$/../views_autocomplete_filters" />
+      <path value="$PROJECT_DIR$/../search_api_location_solr_bboxfield" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1932" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yandex_map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yandex_map" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="jsx.switch.disabled" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1815dcba-e891-41f0-92d4-c10ef16fa7d7" name="Default" comment="" />
+      <created>1481197209812</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481197209812</updated>
+      <workItem from="1481197211317" duration="962000" />
+      <workItem from="1481209490000" duration="3860000" />
+      <workItem from="1481251176205" duration="243000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5065000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/yandex_map.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yandex_map.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#117#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yandex_map.page.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yandex_map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yandex_map.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yandex_map.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#117#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yandex_map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yandex_map.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yandex_map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yandex_map.page.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yandex_map.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <element signature="e#6#117#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

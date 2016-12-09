@@ -1,0 +1,4 @@
+name = Yandex Map
+description = Return all users with geofield on Yandex.Map
+core = 7.x
+package = Custom

@@ -1,0 +1,156 @@
+<?php
+/**
+* @file
+* Module generate Yandex.Map using API, and return all users which have coordinates in geo field
+*/
+
+/**
+ * Implements hook_menu().
+ */
+
+function yandex_map_menu()
+{
+    $items = array();
+
+    //Page whith map
+    $items['yandex_map'] = array(
+        'title' => 'Yandex map',
+        'page callback' => 'yandex_map_page',
+        'menu_name' => 'main-menu',
+        'access callback' => TRUE,
+        'file' => 'yandex_map.page.inc',
+        'file path' => drupal_get_path('module', 'yandex_map'),
+    );
+
+    //Page for run generate geojson from coordinates manually
+    $items['yandex_map_generate'] = array(
+        'title' => 'Get geojson',
+        'page callback' => 'drupal_get_form',
+        'page arguments' => array('yandex_map_form'),
+        'access callback' => TRUE,
+        'file' => 'yandex_map.form.inc',
+        'file path' => drupal_get_path('module', 'yandex_map'),
+    );
+
+    return $items;
+}
+
+/**
+ * If run batch by cron
+ * Implements hook_cron().
+ */
+//function yandex_map_cron()
+//{
+//    $query = db_select('field_data_field_uaddress');
+//
+//    $query
+//        ->fields('field_data_field_uaddress', array('bundle', 'entity_id', 'field_uaddress_data', 'field_uaddress_locality'))
+//        ->condition('entity_id', 0, '<>')
+//        ->condition('bundle', 'user')
+//        ->isNotNull('field_uaddress_data');
+//
+//    $result = $query->execute();
+//
+//    yandex_map_unprogressive_batch($result);
+//}
+
+/**
+ * run batch.
+ */
+function yandex_map_unprogressive_batch($result) {
+    $batch = array(
+        'operations' => array(
+            array('yandex_map_get_geo_array', array($result)),
+        ),
+        'finished' => 'yandex_map_batch_finished',
+    );
+
+    batch_set($batch);
+    // If run batch by cron
+//  $batch = &batch_get();
+//  $batch['progressive'] = FALSE;
+//  batch_process();
+//  return TRUE;
+}
+
+/**
+ * process batch. Get array of geo data for yandex map
+ */
+function yandex_map_get_geo_array($result, &$context) {
+    $limit = 10;
+
+    if (empty($context['sandbox']['progress'])) {
+        // Count of processed items
+        $context['sandbox']['progress'] = 0;
+        // Count of all items
+        $context['sandbox']['max'] = count($result);
+    }
+
+    // Data array
+    if(empty($context['sandbox']['items'])) {
+        $context['sandbox']['items'] = $result;
+    }
+
+    $counter = 0;
+
+    if(!empty($context['sandbox']['items'])) {
+
+        // Remove processed items
+        if ($context['sandbox']['progress'] != 0) {
+            array_splice($context['sandbox']['items'], 0, $limit);
+        }
+        //Process items
+        //In this case it's convert to map object format
+        foreach ($context['sandbox']['items'] as $record) {
+            if ($counter != $limit) {
+                $en = '';
+
+                $user = user_load($record->entity_id);
+                $en = $user->field_uaddress_srch['en'][0]['value'];
+
+                $data = 'init';
+                $data = unserialize($record->field_uaddress_data);
+
+                //create array item according Yandex.Map API
+                $context['sandbox']['geodata'][] = array(
+                    'type' => 'Feature',
+                    'id' => $context['sandbox']['progress'],
+                    'geometry' => array(
+                        'type' => 'Point',
+                        'coordinates' => array($data['latitude'], $data['longitude']),
+                    ),
+                    'properties' => array(
+                        'balloonContentHeader' =>
+                            '<h3 class="ballon-header-en">' . $en . '</h3>',
+                        'balloonContentBody' =>
+                        //link to search page on site, to see all users for example
+                            '<a href="/search?field_uaddress_srch_value=' . $en . '" class="ballon-body-en">See all</a>',
+                    )
+                );
+
+                $counter++;
+                $context['sandbox']['progress']++;
+            }
+        }
+    }
+    //Check for ending batch
+    if ($context['sandbox']['progress'] < $context['sandbox']['max']) {
+        $context['finished'] = $context['sandbox']['progress'] / $context['sandbox']['max'];
+    } else {
+        $context['results']['data'] = array(
+            'max' => $context['sandbox']['max'],
+            'type' => 'FeatureCollection',
+            'features' => $context['sandbox']['geodata'],
+        );
+    }
+}
+
+/**
+ * write processed array of geo data in json
+ */
+function yandex_map_batch_finished($success, $results, $operations) {
+    $json = drupal_json_encode($results['data']);
+    $fh = fopen('sites/all/modules/yandex_map/coordinates.json', 'w');
+    fwrite($fh, $json);
+    fclose($fh);
+}
